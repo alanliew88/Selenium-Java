@@ -8,6 +8,7 @@ public class FirstTestCaseChrome {
         WebDriver driver = new ChromeDriver();
         driver.get("https:google.com");
         System.out.println(driver.getTitle());
+
         driver.close();
     }
 }
