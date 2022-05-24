@@ -11,6 +11,10 @@ public class ForthTestCase {
         driver.navigate().refresh();
         driver.navigate().forward();
         //driver.navigate().back();
+
+
+        driver.navigate().to("https:facebook.com");
         driver.close();
+        driver.quit();
     }
 }
