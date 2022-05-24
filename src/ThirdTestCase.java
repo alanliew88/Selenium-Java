@@ -29,7 +29,7 @@ public class ThirdTestCase {
             driver.close();
 
         }else{
-            System.out.println("Error: Test Case Failed -");
+            System.out.println("Error: Test Case Failed ");
         }
 
 
