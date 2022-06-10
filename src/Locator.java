@@ -28,9 +28,6 @@ public class Locator {
         driver.findElement(By.cssSelector("#password")).sendKeys("456789");
 
 
-
-
-
         driver.quit();
     }
 }
