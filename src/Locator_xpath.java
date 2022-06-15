@@ -25,9 +25,6 @@ public class Locator_xpath {
         searchbox.clear();
         searchbox.sendKeys("Orange");
         Thread.sleep(2000);
-
-
-
         driver.close();
 
 
