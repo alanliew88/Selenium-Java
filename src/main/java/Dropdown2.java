@@ -22,7 +22,6 @@ public class Dropdown2 {
         driver.findElement(By.xpath("//*[@id=/'tippy-3/']/div/div/span/div/ul/li[2]")).isDisplayed();
 
 
-
         driver.quit();
         System.out.println("Code run all successfully");
     }
