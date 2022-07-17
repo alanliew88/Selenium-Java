@@ -15,7 +15,6 @@ public class Dropdown3 {
 
         driver.findElement(By.xpath("//*[@id=/'SearchBoxContainer/']/div[1]/div/div[2]/div/div/div[1]/div/div/input")).click();
 
-
         Thread.sleep(2000);
 
 
