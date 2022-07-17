@@ -9,7 +9,6 @@ public class SecondTestCaseFireFox {
         WebDriver driver = new FirefoxDriver();
         driver.get("https:google.com");
         System.out.println(driver.getTitle());
-
         driver.close();
 
 
