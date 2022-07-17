@@ -27,7 +27,7 @@ public class Locator {
         driver.findElement(By.cssSelector("#password")).clear();
         driver.findElement(By.cssSelector("#password")).sendKeys("456789");
 
-// way to validate the xpath and css selector
+        // way to validate the xpath and css selector
         //1. $x("//*[@id='forgot_password_link']")         - this is for xpath
         //2. $("#forgot_password_link")                     - this is for css selector
 
