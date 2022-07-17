@@ -22,7 +22,6 @@ public class PseudoElement2 {
         //closebutton.isDisplayed();
         //closebutton.click();
 
-
         driver.quit();
         System.out.println("Success");
     }
