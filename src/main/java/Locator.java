@@ -30,7 +30,6 @@ public class Locator {
         // way to validate the xpath and css selector
         //1. $x("//*[@id='forgot_password_link']")         - this is for xpath
         //2. $("#forgot_password_link")                     - this is for css selector
-
         driver.quit();
     }
 }
