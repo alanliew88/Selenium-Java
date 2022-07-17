@@ -22,10 +22,6 @@ public class Dropdowns {
         Thread.sleep(2000);
 
 
-
-
-
-
         driver.quit();
         System.out.println("Success run all");
 
