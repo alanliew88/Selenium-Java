@@ -20,7 +20,6 @@ public class WebElement {
         System.out.println("The default value is :" + username.getAttribute("value"));
         //get text method
         System.out.println("The button get text is :" + button.getText());
-
         button.click();
     }
 }
