@@ -26,7 +26,6 @@ public class Method {
         System.out.println("Is male selected :"+ male.isSelected());
         System.out.println("Is Female selected :"+ female.isSelected());
 
-
         driver.quit();
 
     }
