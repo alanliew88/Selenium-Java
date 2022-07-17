@@ -18,7 +18,6 @@ public class PseudoElement {
         WebElement closebutton = driver.findElement(By.tagName("svg"));
         action.moveToElement(closebutton).click().build().perform();
 
-
         driver.quit();
         System.out.println("Success");
     }
