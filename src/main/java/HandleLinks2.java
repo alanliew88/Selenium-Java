@@ -25,6 +25,12 @@ public class HandleLinks2 {
         for (WebElement single:semualinks){
             System.out.println(single.getText());
             System.out.println(single.getAttribute("href"));
+            String url = single.getAttribute("href");
+            if (url==null || url.isEmpty()){
+                System.out.println("url is empty");
+                continue;
+            }
+
         }
 
         driver.quit();
