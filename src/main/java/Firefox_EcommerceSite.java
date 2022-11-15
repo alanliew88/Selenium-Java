@@ -28,7 +28,6 @@ public class Firefox_EcommerceSite {
         driver.findElement(By.xpath("/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[3]/button")).click();
 
         Thread.sleep(3000);
-
         //this webelement doenst working at all
         WebElement dropdownbutton = driver.findElement(By.xpath("//li[@class=\"nav-item has-treeview\"]//li//p[@xpath='4']"));
         dropdownbutton.click();
